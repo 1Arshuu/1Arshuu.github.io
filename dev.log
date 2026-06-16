@@ -20,3 +20,29 @@
 - Network:       http://0.0.0.0:3000
 ✓ Ready in 1387ms
 
+⚠ Found a change in next.config.ts. Restarting the server to apply the changes...
+▲ Next.js 16.2.9 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://0.0.0.0:3000
+✓ Ready in 822ms
+
+  Downloading swc package @next/swc-win32-x64-msvc... to C:\Users\Star computer\AppData\Local\next-swc
+  Downloading swc package @next/swc-wasm-nodejs... to C:\Users\Star computer\AppData\Local\next-swc
+⚠ Attempted to load C:\Users\Star computer\arsh\node_modules\next\next-swc-fallback\@next\swc-win32-x64-msvc\next-swc.win32-x64-msvc.node, but it was not installed
+⚠ Attempted to load @next/swc-win32-x64-msvc, but it was not installed
+⚠ Attempted to load @next/swc-wasm-nodejs, but it was not installed
+⚠ Attempted to load @next/swc-wasm-web, but it was not installed
+⨯ Failed to load SWC binary for win32/x64, see more info here: https://nextjs.org/docs/messages/failed-loading-swc
+⚠ Attempted to load C:\Users\Star computer\arsh\node_modules\next\next-swc-fallback\@next\swc-win32-x64-msvc\next-swc.win32-x64-msvc.node, but it was not installed
+⚠ Attempted to load @next/swc-win32-x64-msvc, but it was not installed
+  Using cached swc package @next/swc-wasm-nodejs...
+Error: Turbopack build failed with 1 errors:
+./app
+Error: Next.js inferred your workspace root, but it may not be correct.
+    We couldn't find the Next.js package (next/package.json) from the project directory: C:\Users\Star computer\arsh\app
+     To fix this, set turbopack.root in your Next.js config, or ensure the Next.js package is resolvable from this directory.
+    Note: For security and performance reasons, files outside of the project directory will not be compiled.
+    See https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopack#root-directory for more information.
+
+    at ignore-listed frames
+[?25h
